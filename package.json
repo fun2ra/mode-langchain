@@ -1,0 +1,22 @@
+{
+  "name": "node-langchain",
+  "version": "1.0.0",
+  "description": "Node.js TypeScript project",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "tsx src/app.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.39",
+    "@langchain/openai": "^0.5.4",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.2.2"
+  }
+}
